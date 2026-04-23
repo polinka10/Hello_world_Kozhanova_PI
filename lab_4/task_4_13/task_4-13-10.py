@@ -6,7 +6,7 @@ else:
     i = 1
     while i <= N:
         x = int(input("Введите число: "))
-        if i % 2 == 0:  #уточнить или if i % 2 =! 0????
+        if i % 2 == 0:
             sum_val += x
         i += 1
     print(sum_val)
